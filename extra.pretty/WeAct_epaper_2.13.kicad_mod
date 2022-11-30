@@ -15,6 +15,16 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 20696fbb-bd11-45e0-af33-1e6a99395317)
   )
+  (fp_poly (pts
+      (xy -69.2 -7.62)
+      (xy -66.4 -4.82)
+      (xy -66.4 12.44)
+      (xy -69.2 15.24)
+      (arc (start -69.2 16.01) (mid -68.379899 17.989899) (end -66.4 18.81))
+      (arc (start 0 18.81) (mid 1.979899 17.989899) (end 2.8 16.01))
+      (arc (start 2.8 -8.39) (mid 1.979899 -10.369899) (end 0 -11.19))
+      (arc (start -66.4 -11.19) (mid -68.379899 -10.369899) (end -69.2 -8.39))
+    ) (layer "F.CrtYd") (width 0.2) (fill none) (tstamp 82ae6ae0-58be-4b29-868f-0e78711f580e))
   (fp_line (start 0 -0.768) (end 0.78 -1.548) (layer "F.Fab") (width 0.1) (tstamp ce281c7c-5230-48cb-9691-7d08fa868e89))
   (fp_poly (pts
       (xy -69.2 -7.62)
