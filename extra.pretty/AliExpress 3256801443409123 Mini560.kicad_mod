@@ -1,0 +1,141 @@
+(footprint "AliExpress 3256801443409123 Mini560"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 16 1.504 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "316f33ab-5329-4eb4-babf-603c8db5026b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AliExpress 3256801443409123 Mini560"
+		(at 16 3.112 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8b4bb77b-a360-4659-a9f4-f14e51f01d96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 26.27 5.71 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "108df51a-2055-4d4f-b2b8-c714495f527e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 26.27 5.71 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2487630b-d648-4799-90bb-6268dd37ee0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2 -4.54)
+		(end 27 13.46)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8fece7e4-7179-4c7e-b3af-872bca6e45b4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 16 5.036 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "af2409a4-ebab-414b-954f-ea465b2f7c58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "GND" thru_hole roundrect
+		(at 0 8.92)
+		(size 5 2.2)
+		(drill 1
+			(offset -1 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "c033d5be-bd1a-4954-afb8-5fc963c72aec")
+	)
+	(pad "GND" thru_hole roundrect
+		(at 25 8.92)
+		(size 5 2.2)
+		(drill 1
+			(offset 1 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "fdbaec68-64ca-4162-bdc7-2de45eb2bb43")
+	)
+	(pad "Vin" thru_hole roundrect
+		(at 0 0)
+		(size 5 2.2)
+		(drill 1
+			(offset -1 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "e6c12c96-0321-474f-b46e-c9a38edcf635")
+	)
+	(pad "Vout" thru_hole roundrect
+		(at 25 0)
+		(size 5 2.2)
+		(drill 1
+			(offset 1 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "2a7ba2ab-87ca-4f10-970d-7f19967e9179")
+	)
+	(pad "en" thru_hole roundrect
+		(at 5 12 90)
+		(size 5 2.2)
+		(drill 1
+			(offset -1 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "ae33e27e-1826-466d-a32e-ef187f086c0d")
+	)
+	(embedded_fonts no)
+)
