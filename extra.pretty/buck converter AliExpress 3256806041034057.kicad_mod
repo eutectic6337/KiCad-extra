@@ -1,10 +1,10 @@
-(footprint "AliExpress 3256807183204284"
+(footprint "buck converter AliExpress 3256806041034057"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -9 -3.556 0)
+		(at 5.96 -7.496 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "316f33ab-5329-4eb4-babf-603c8db5026b")
@@ -15,8 +15,8 @@
 			)
 		)
 	)
-	(property "Value" "AliExpress 3256807183204284"
-		(at -9 -1.524 0)
+	(property "Value" "buck converter AliExpress 3256806041034057"
+		(at 5.96 -4.888 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "8b4bb77b-a360-4659-a9f4-f14e51f01d96")
@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 1.27 -6.35 0)
+		(at 16.23 -10.29 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -41,7 +41,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 1.27 -6.35 0)
+		(at 16.23 -10.29 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -55,8 +55,8 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -18.73 -6.52)
-		(end 1.27 3.98)
+		(start -1.27 -9.96)
+		(end 16.23 2.04)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -66,7 +66,7 @@
 		(uuid "8fece7e4-7179-4c7e-b3af-872bca6e45b4")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -9 -0.024 0)
+		(at 5.96 -2.964 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "af2409a4-ebab-414b-954f-ea465b2f7c58")
@@ -78,11 +78,19 @@
 		)
 	)
 	(pad "GND" thru_hole roundrect
-		(at 0 -2.54)
-		(size 3 2)
-		(drill 1
-			(offset 0.5 0)
-		)
+		(at 0 -7.92)
+		(size 3 2.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "c033d5be-bd1a-4954-afb8-5fc963c72aec")
+	)
+	(pad "GND" thru_hole roundrect
+		(at 14.96 -7.92)
+		(size 3 2.2)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
@@ -91,10 +99,8 @@
 	)
 	(pad "Vin" thru_hole roundrect
 		(at 0 0)
-		(size 3 2)
-		(drill 1
-			(offset 0.5 0)
-		)
+		(size 3 2.2)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
@@ -102,28 +108,14 @@
 		(uuid "e6c12c96-0321-474f-b46e-c9a38edcf635")
 	)
 	(pad "Vout" thru_hole roundrect
-		(at 0 -5.08)
-		(size 3 2)
-		(drill 1
-			(offset 0.5 0)
-		)
+		(at 14.96 0)
+		(size 3 2.2)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
 		(uuid "2a7ba2ab-87ca-4f10-970d-7f19967e9179")
-	)
-	(pad "en" thru_hole roundrect
-		(at 0 2.54)
-		(size 3 2)
-		(drill 1
-			(offset 0.5 0)
-		)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(roundrect_rratio 0.15)
-		(thermal_bridge_angle 45)
-		(uuid "c033d5be-bd1a-4954-afb8-5fc963c72aec")
 	)
 	(embedded_fonts no)
 )
