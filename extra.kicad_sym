@@ -364,6 +364,539 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "MK-12C02G1.5-W"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "extra:SW-SMD_G-SWITCH_MK-12C02-G015"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/MK-12C02G1.5-W/21966524.html"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "MK-12C02G1.5-W"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HOOYA(皓宇电子)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C20611677"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "mini拨动开关"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MK-12C02G1.5-W_1_0"
+			(rectangle
+				(start -10.16 5.08)
+				(end 10.16 -6.096)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -7.112 -1.778)
+				(end -3.048 -3.302)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -6.35 10.16)
+				(end -1.27 5.08)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -1.778) (xy -5.334 -0.762)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -2.032 -1.778)
+				(end 2.032 -3.302)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy -5.08 1.27) (xy -5.08 1.27) (xy -5.08 -1.778) (xy -5.08 -1.778) (xy -4.826 -0.762)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.778) (xy -0.254 -0.762)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.048 -1.778)
+				(end 7.112 -3.302)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -1.778) (xy 4.826 -0.762)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -1.778) (xy 5.334 -0.762)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -1.778) (xy 5.08 2.54) (xy 5.08 2.54) (xy 0 2.54) (xy 0 2.54) (xy 0 -1.778) (xy 0 -1.778)
+					(xy 0.254 -0.762)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 0 0)
+				(length 5.08)
+				(name "6"
+					(effects
+						(font
+							(size 0.0254 0.0254)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -2.54 0)
+				(length 5.08)
+				(name "7"
+					(effects
+						(font
+							(size 0.0254 0.0254)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -7.62 90)
+				(length 4.318)
+				(name "1"
+					(effects
+						(font
+							(size 0.0254 0.0254)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -7.62 90)
+				(length 4.318)
+				(name "2"
+					(effects
+						(font
+							(size 0.0254 0.0254)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 -7.62 90)
+				(length 4.318)
+				(name "3"
+					(effects
+						(font
+							(size 0.0254 0.0254)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 0 180)
+				(length 5.08)
+				(name "5"
+					(effects
+						(font
+							(size 0.0254 0.0254)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 -2.54 180)
+				(length 5.08)
+				(name "4"
+					(effects
+						(font
+							(size 0.0254 0.0254)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "P2-1206G1TS2-09T-202"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "LED"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P2-1206G1TS2-09T-202"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "extra:P2-1206G1TS2-09T-202"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED, reverse emitting"
+			(at 0 -4.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "LED diode"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "P2-1206G1TS2-09T-202_0_1"
+			(polyline
+				(pts
+					(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "P2-1206G1TS2-09T-202_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "SAO v1.69bis addon"
 		(pin_names
 			(offset 1.016)
@@ -1221,6 +1754,695 @@
 						(font
 							(size 1.27 1.27)
 						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Sheet-Symbol_A2"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ProPrj_New-easyedapro:"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Sheet-Symbol_A2_1_0"
+			(rectangle
+				(start 0 419.608)
+				(end 593.852 0)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 312.166) (xy 2.54 312.166)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 207.264) (xy 2.54 207.264)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 102.362) (xy 2.54 102.362)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2.54 417.068)
+				(end 591.312 2.54)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 101.4984 419.608) (xy 101.4984 417.068)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 101.4984 2.54) (xy 101.4984 0)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 200.4822 419.608) (xy 200.4822 417.068)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 200.4822 2.54) (xy 200.4822 0)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 299.466 419.608) (xy 299.466 417.068)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 299.466 2.54) (xy 299.466 0)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 398.4244 419.608) (xy 398.4244 417.068)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 398.4244 2.54) (xy 398.4244 0)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 413.004 48.26)
+				(end 591.312 2.54)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 436.372 12.7) (xy 436.372 48.26)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 468.884 33.02) (xy 468.884 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 468.884 27.94) (xy 413.004 27.94)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 468.884 22.86) (xy 413.004 22.86)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 489.204 2.54) (xy 489.204 17.78)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 497.4082 419.608) (xy 497.4082 417.068)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 497.4082 2.54) (xy 497.4082 0)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 509.524 17.78) (xy 509.524 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 524.764 48.26) (xy 524.764 33.02)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 550.164 33.02) (xy 550.164 48.26)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 591.312 312.166) (xy 593.852 312.166)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 591.312 207.264) (xy 593.852 207.264)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 591.312 102.362) (xy 593.852 102.362)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 591.312 43.18) (xy 524.764 43.18)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 591.312 38.1) (xy 413.004 38.1)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 591.312 33.02) (xy 413.004 33.02)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 591.312 17.78) (xy 413.004 17.78)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 591.312 12.7) (xy 413.004 12.7)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "A"
+				(at 1.27 364.617 0)
+				(effects
+					(font
+						(size 1.5748 1.5748)
+					)
+				)
+			)
+			(text "B"
+				(at 1.27 259.715 0)
+				(effects
+					(font
+						(size 1.5748 1.5748)
+					)
+				)
+			)
+			(text "C"
+				(at 1.27 154.813 0)
+				(effects
+					(font
+						(size 1.5748 1.5748)
+					)
+				)
+			)
+			(text "D"
+				(at 1.27 49.911 0)
+				(effects
+					(font
+						(size 1.5748 1.5748)
+					)
+				)
+			)
+			(text "1"
+				(at 52.0192 418.338 0)
+				(effects
+					(font
+						(size 1.5748 1.5748)
+					)
+				)
+			)
+			(text "1"
+				(at 52.0192 1.27 0)
+				(effects
+					(font
+						(size 1.5748 1.5748)
+					)
+				)
+			)
+			(text "2"
+				(at 151.003 418.338 0)
+				(effects
+					(font
+						(size 1.5748 1.5748)
+					)
+				)
+			)
+			(text "2"
+				(at 151.003 1.27 0)
+				(effects
+					(font
+						(size 1.5748 1.5748)
+					)
+				)
+			)
+			(text "3"
+				(at 249.9614 418.338 0)
+				(effects
+					(font
+						(size 1.5748 1.5748)
+					)
+				)
+			)
+			(text "3"
+				(at 249.9614 1.27 0)
+				(effects
+					(font
+						(size 1.5748 1.5748)
+					)
+				)
+			)
+			(text "4"
+				(at 348.9452 418.338 0)
+				(effects
+					(font
+						(size 1.5748 1.5748)
+					)
+				)
+			)
+			(text "4"
+				(at 348.9452 1.27 0)
+				(effects
+					(font
+						(size 1.5748 1.5748)
+					)
+				)
+			)
+			(text "Schematic"
+				(at 415.544 43.18 0)
+				(effects
+					(font
+						(size 2.3622 2.3622)
+					)
+					(justify left)
+				)
+			)
+			(text "Drawn"
+				(at 415.544 30.48 0)
+				(effects
+					(font
+						(size 2.3622 2.3622)
+					)
+					(justify left)
+				)
+			)
+			(text "Reviewed"
+				(at 415.544 25.4 0)
+				(effects
+					(font
+						(size 2.3622 2.3622)
+					)
+					(justify left)
+				)
+			)
+			(text "Page"
+				(at 416.052 35.56 0)
+				(effects
+					(font
+						(size 2.3622 2.3622)
+					)
+					(justify left)
+				)
+			)
+			(text "5"
+				(at 447.929 418.338 0)
+				(effects
+					(font
+						(size 1.5748 1.5748)
+					)
+				)
+			)
+			(text "5"
+				(at 447.929 1.27 0)
+				(effects
+					(font
+						(size 1.5748 1.5748)
+					)
+				)
+			)
+			(text "VER"
+				(at 479.044 15.24 0)
+				(effects
+					(font
+						(size 2.3622 2.3622)
+					)
+				)
+			)
+			(text "SIZE"
+				(at 499.364 15.24 0)
+				(effects
+					(font
+						(size 2.3622 2.3622)
+					)
+				)
+			)
+			(text "Update Date"
+				(at 527.304 45.72 0)
+				(effects
+					(font
+						(size 2.3622 2.3622)
+					)
+					(justify left)
+				)
+			)
+			(text "Create Date"
+				(at 527.304 40.64 0)
+				(effects
+					(font
+						(size 2.3622 2.3622)
+					)
+					(justify left)
+				)
+			)
+			(text "Part Number"
+				(at 527.304 35.56 0)
+				(effects
+					(font
+						(size 2.3622 2.3622)
+					)
+					(justify left)
+				)
+			)
+			(text "PAGE"
+				(at 527.304 15.494 0)
+				(effects
+					(font
+						(size 2.3622 2.3622)
+					)
+					(justify left)
+				)
+			)
+			(text "6"
+				(at 546.8874 418.338 0)
+				(effects
+					(font
+						(size 1.5748 1.5748)
+					)
+				)
+			)
+			(text "6"
+				(at 546.8874 1.27 0)
+				(effects
+					(font
+						(size 1.5748 1.5748)
+					)
+				)
+			)
+			(text "OF"
+				(at 558.8 15.494 0)
+				(effects
+					(font
+						(size 2.3622 2.3622)
+					)
+					(justify left)
+				)
+			)
+			(text "A"
+				(at 592.582 364.617 0)
+				(effects
+					(font
+						(size 1.5748 1.5748)
+					)
+				)
+			)
+			(text "B"
+				(at 592.582 259.715 0)
+				(effects
+					(font
+						(size 1.5748 1.5748)
+					)
+				)
+			)
+			(text "C"
+				(at 592.582 154.813 0)
+				(effects
+					(font
+						(size 1.5748 1.5748)
+					)
+				)
+			)
+			(text "D"
+				(at 592.582 49.911 0)
+				(effects
+					(font
+						(size 1.5748 1.5748)
 					)
 				)
 			)
@@ -2594,7 +3816,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "LED"
-			(at 3.048 2.794 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2609,8 +3831,8 @@
 				)
 			)
 		)
-		(property "Footprint" "extra:LED_XL-1606SURC-side"
-			(at 0 -7.366 0)
+		(property "Footprint" "extra:LED-SMD_L1.7-W1.1-RD_RED-SIDE"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2619,8 +3841,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/datasheet/XL-1606SURC/1051469.html"
-			(at 0 -9.398 0)
-			(do_not_autoplace)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2628,7 +3849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED, side-emitting"
+		(property "Description" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -2638,7 +3859,7 @@
 			)
 		)
 		(property "Manufacturer Part" "XL-1606SURC"
-			(at 0 -3.302 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2647,7 +3868,7 @@
 			)
 		)
 		(property "Manufacturer" "XINGLIGHT(成兴光)"
-			(at -0.254 -5.08 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2656,7 +3877,7 @@
 			)
 		)
 		(property "Supplier Part" "C965860"
-			(at 0 4.572 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2665,7 +3886,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 0 6.096 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2673,7 +3894,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" ""
+		(property "LCSC Part Name" "0602红色贴片式发光二极管"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2688,8 +3909,8 @@
 					(xy -4.064 3.302) (xy -3.048 2.794) (xy -3.048 2.794) (xy -3.556 2.286) (xy -3.556 2.286) (xy -4.064 3.302)
 				)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.254)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -2700,8 +3921,8 @@
 					(xy -3.048 4.318) (xy -2.032 3.81) (xy -2.032 3.81) (xy -2.54 3.302) (xy -2.54 3.302) (xy -3.048 4.318)
 				)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.254)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -2712,8 +3933,8 @@
 					(xy -2.286 1.524) (xy -3.302 2.54)
 				)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.254)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -2724,8 +3945,8 @@
 					(xy -1.27 2.54) (xy -2.286 3.556)
 				)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.254)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -2736,8 +3957,8 @@
 					(xy -1.27 1.778) (xy -1.27 -1.778)
 				)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.254)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -2748,8 +3969,8 @@
 					(xy -1.27 0) (xy -2.54 0)
 				)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.254)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -2760,8 +3981,8 @@
 					(xy 1.27 1.778) (xy -1.27 0) (xy -1.27 0) (xy 1.27 -1.778) (xy 1.27 -1.778) (xy 1.27 1.778)
 				)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.254)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -2772,8 +3993,8 @@
 					(xy 2.54 0) (xy 1.27 0)
 				)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.254)
+					(type solid)
 				)
 				(fill
 					(type none)
